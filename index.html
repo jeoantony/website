@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <header class="header">
+    <a href="#" class="logo">Jeo</a>
+    <input type="checkbox" id="check">
+    <label for="check"class="icons">
+      <i class='bx bx-menu'id="mainmenu"></i>
+      <i class='bx bxs-x-circle' id="closingmenu"></i>
+    </label>
+    <nav class="navbar">
+      <a href="./workin.html">Home</a>
+      <a href="./workin.html">About</a>
+      <a href="./workin.html">Gallery</a>
+      <a href="./workin.html">Services</a>
+      <a href="./contact.html">Contact</a>
+
+    </nav>
+  </header>
+  <main>
+    <section class="firstSection">
+      <div class="leftSection">Hi My Name is <span class="purple">Jeo</span> 
+        <div>And I am a passionate</div> <div>web developer</div>
+        <span id="element"></span>
+      </div>
+      <div class="rightSection"> <img src="./photo.png" width =300px></div>
+    </section>
+    <div id="myphoto"> <img src="./photo.png" width =300px></div>
+    <section class="secondsection">
+      <h1>Declaration</h1>
+      <hr>
+      <p>This web site created for education purpose only.</p>
+    </section>
+  </main> 
+  <footer>
+    <div class="foot">
+      <div class="demo"></div>
+      <div class="demoo"></div>
+      <div class="firstf">
+        <h3>Jeo portfolio</h3>
+      </div>
+      <div class="secondf">
+        <ul>
+          <li>Home</li>
+          <li>about</li>
+          <li>contact</li>
+        </ul>
+      </div>
+      <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+      <script>
+        var typed = new Typed('#element', {
+          strings: ['& video editor','& andriod developer','& Phython programer'],
+          typeSpeed:100,
+        });
+      </script> 
+</body>
+</html>
